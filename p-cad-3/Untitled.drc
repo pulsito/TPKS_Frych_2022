@@ -1,0 +1,462 @@
+P-CAD Design Rule Check Report
+
+======================================================================
+
+Untitled.drc:
+
+
+Design Clearances (in   mm):
+-------------------------------
+Silk Screen Clearance:  6mil
+Hole-Hole Clearance:    5mil
+Board Edge Clearance:   Not Defined
+
+
+Layer Clearances (in   mm):
+-------------------------------
+
+Layer Name          Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+Top                   0.300     0.300     0.300     0.300     0.300     0.300
+Bottom                0.300     0.300     0.300     0.300     0.300     0.300
+
+
+Net Class Clearances (in   mm):
+-------------------------------
+Net Class Name      Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+
+Net Clearances (In   mm):
+-------------------------
+Net Name            Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+Net Class To Net Class Clearances (in   mm):
+--------------------------------------------
+Net Class Names     Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+
+Area Checked:
+-------------
+
+DRC Extents:            Entire Workspace
+
+
+DRC Report Options:
+-------------------
+
+Net List Compare:                       Off
+Clearance Violations:                   On
+Text Violations:                        On
+Same-Parent-Component Pad Violations:   On
+Net List Violations:                    On
+Unrouted Nets:                          On
+Unconnected Pins:                       On
+Net Length Violations:                  On
+Silk Violations:                        On
+Copper Pour Violations:                 On
+Plane Violations:                       On
+Component Violations:                   On
+Drill Violations:                       On
+
+----------------------------------------------------------------------
+
+22-Nov-22  15:08                                            Page    1
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+Test Point Violations:                  Off
+
+DRC Errors:
+-----------
+
+
+NETLIST VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+CLEARANCE VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+UNROUTED NETS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+UNCONNECTED PINS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+Warning: Net length violation tests were not performed because
+         of missing MinNetLength, MaxNetLength, or MatchedLength rules.
+
+NETLIST LENGTH VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+SILK SCREEN CLEARANCE VIOLATIONS:
+
+Error 1 -- Clearance Violation between:
+   * Line at (130.050, 49.400):(130.050, 59.900) mm [Top Silk layer]
+   * Pad 1-4 at (129.300, 50.900) mm [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 2 -- Clearance Violation between:
+   * Line at (130.050, 49.400):(130.050, 59.900) mm [Top Silk layer]
+   * Pad 1-2 at (129.300, 55.900) mm [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 3 -- Clearance Violation between:
+   * Line at (130.050, 49.400):(130.050, 59.900) mm [Top Silk layer]
+   * Pad 1-1 at (129.300, 58.400) mm [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 4 -- Clearance Violation between:
+   * Line at (130.050, 49.400):(130.050, 59.900) mm [Top Silk layer]
+
+----------------------------------------------------------------------
+
+22-Nov-22  15:08                                            Page    2
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+   * Pad 1-3 at (129.300, 53.400) mm [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 5 -- Clearance Violation between:
+   * Line at (136.050, 59.900):(136.050, 49.400) mm [Top Silk layer]
+   * Pad 1-5 at (136.800, 50.900) mm [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 6 -- Clearance Violation between:
+   * Line at (136.050, 59.900):(136.050, 49.400) mm [Top Silk layer]
+   * Pad 1-7 at (136.800, 55.900) mm [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 7 -- Clearance Violation between:
+   * Line at (136.050, 59.900):(136.050, 49.400) mm [Top Silk layer]
+   * Pad 1-8 at (136.800, 58.400) mm [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 8 -- Clearance Violation between:
+   * Line at (136.050, 59.900):(136.050, 49.400) mm [Top Silk layer]
+   * Pad 1-6 at (136.800, 53.400) mm [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 9 -- Clearance Violation between:
+   * Attribute at (129.300, 45.900) mm [Top Silk layer]
+   * Text=KP1436AP1
+   * Pad R6-1 at (144.700, 48.300) mm [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 10 -- Clearance Violation between:
+   * Line at (180.404, 77.392):(180.404, 77.566) mm [Top Silk layer]
+   * Pad C1-1 at (179.100, 76.600) mm [Top layer]
+   * Calculated Clearance: 0.079mm.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 11 -- Clearance Violation between:
+   * Line at (180.404, 77.566):(180.170, 77.800) mm [Top Silk layer]
+   * Pad C1-1 at (179.100, 76.600) mm [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 12 -- Clearance Violation between:
+   * Line at (180.170, 77.800):(180.041, 77.800) mm [Top Silk layer]
+   * Pad C1-1 at (179.100, 76.600) mm [Top layer]
+   * Calculated Clearance: 0.075mm.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 13 -- Clearance Violation between:
+   * Line at (177.800, 77.800):(180.041, 77.800) mm [Top Silk layer]
+   * Pad C1-1 at (179.100, 76.600) mm [Top layer]
+   * Calculated Clearance: 0.075mm.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 14 -- Clearance Violation between:
+   * Line at (180.400, 72.400):(177.800, 72.400) mm [Top Silk layer]
+   * Pad C1-2 at (179.100, 73.600) mm [Top layer]
+   * Calculated Clearance: 0.075mm.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 15 -- Clearance Violation between:
+   * Line at (177.800, 72.400):(177.800, 77.800) mm [Top Silk layer]
+   * Pad C1-2 at (179.100, 73.600) mm [Top layer]
+
+----------------------------------------------------------------------
+
+22-Nov-22  15:08                                            Page    3
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+   * Calculated Clearance: 0.075mm.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 16 -- Clearance Violation between:
+   * Line at (177.800, 72.400):(177.800, 77.800) mm [Top Silk layer]
+   * Pad C1-1 at (179.100, 76.600) mm [Top layer]
+   * Calculated Clearance: 0.075mm.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 17 -- Clearance Violation between:
+   * Line at (180.399, 77.389):(180.400, 72.400) mm [Top Silk layer]
+   * Pad C1-2 at (179.100, 73.600) mm [Top layer]
+   * Calculated Clearance: 0.075mm.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 18 -- Clearance Violation between:
+   * Line at (180.399, 77.389):(180.400, 72.400) mm [Top Silk layer]
+   * Pad C1-1 at (179.100, 76.600) mm [Top layer]
+   * Calculated Clearance: 0.074mm.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 19 -- Clearance Violation between:
+   * Attribute at (181.894, 74.973) mm [Top Silk layer]
+   * Text=C1
+   * Pad C1-2 at (179.100, 73.600) mm [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 20 -- Clearance Violation between:
+   * Attribute at (181.894, 74.973) mm [Top Silk layer]
+   * Text=C1
+   * Pad C1-1 at (179.100, 76.600) mm [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 21 -- Clearance Violation between:
+   * Line at (113.796, 57.108):(113.796, 56.934) mm [Top Silk layer]
+   * Pad C3-1 at (115.100, 57.900) mm [Top layer]
+   * Calculated Clearance: 0.079mm.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 22 -- Clearance Violation between:
+   * Line at (113.796, 56.934):(114.030, 56.700) mm [Top Silk layer]
+   * Pad C3-1 at (115.100, 57.900) mm [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 23 -- Clearance Violation between:
+   * Line at (114.030, 56.700):(114.159, 56.700) mm [Top Silk layer]
+   * Pad C3-1 at (115.100, 57.900) mm [Top layer]
+   * Calculated Clearance: 0.075mm.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 24 -- Clearance Violation between:
+   * Line at (116.400, 56.700):(114.159, 56.700) mm [Top Silk layer]
+   * Pad C3-1 at (115.100, 57.900) mm [Top layer]
+   * Calculated Clearance: 0.075mm.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 25 -- Clearance Violation between:
+   * Line at (113.800, 62.100):(116.400, 62.100) mm [Top Silk layer]
+   * Pad C3-2 at (115.100, 60.900) mm [Top layer]
+   * Calculated Clearance: 0.075mm.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 26 -- Clearance Violation between:
+   * Line at (116.400, 62.100):(116.400, 56.700) mm [Top Silk layer]
+   * Pad C3-1 at (115.100, 57.900) mm [Top layer]
+
+----------------------------------------------------------------------
+
+22-Nov-22  15:08                                            Page    4
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+   * Calculated Clearance: 0.075mm.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 27 -- Clearance Violation between:
+   * Line at (116.400, 62.100):(116.400, 56.700) mm [Top Silk layer]
+   * Pad C3-2 at (115.100, 60.900) mm [Top layer]
+   * Calculated Clearance: 0.075mm.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 28 -- Clearance Violation between:
+   * Line at (113.801, 57.111):(113.800, 62.100) mm [Top Silk layer]
+   * Pad C3-1 at (115.100, 57.900) mm [Top layer]
+   * Calculated Clearance: 0.074mm.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 29 -- Clearance Violation between:
+   * Line at (113.801, 57.111):(113.800, 62.100) mm [Top Silk layer]
+   * Pad C3-2 at (115.100, 60.900) mm [Top layer]
+   * Calculated Clearance: 0.075mm.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 30 -- Clearance Violation between:
+   * Attribute at (112.306, 59.527) mm [Top Silk layer]
+   * Text=C3
+   * Pad C3-1 at (115.100, 57.900) mm [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Design.SilkscreenClearance=6mil
+Error 31 -- Clearance Violation between:
+   * Attribute at (112.306, 59.527) mm [Top Silk layer]
+   * Text=C3
+   * Pad C3-2 at (115.100, 60.900) mm [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Design.SilkscreenClearance=6mil
+
+0 warning(s) detected.
+31 error(s) detected.
+
+TEXT VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+WIDTH VIOLATIONS:
+
+Warning: Width violation tests were not performed because
+         of missing Width rule.
+
+0 warning(s) detected.
+0 error(s) detected.
+
+COPPER POUR VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+PLANE VIOLATIONS:
+
+
+0 warning(s) detected.
+
+----------------------------------------------------------------------
+
+22-Nov-22  15:08                                            Page    5
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+0 error(s) detected.
+
+COMPONENT VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+DRILL VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+DRC Summary:
+------------
+
+Netlist:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Clearance:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Unrouted Nets:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Unconnected Pins:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Net Length:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Silk Screen:
+	Errors:         31
+	Warnings:       0
+	Ignored Errors: 0
+Text:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Width:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Copper Pour:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Plane:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+
+----------------------------------------------------------------------
+
+22-Nov-22  15:08                                            Page    6
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+Component:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Drilling:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+
+22-Nov-22  15:08                                            Page    7
+
