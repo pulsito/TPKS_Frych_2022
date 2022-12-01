@@ -1,0 +1,120 @@
+PCAD Importer Log
+Project : scheme.PrjPcb
+
+Section : D:\Programs\PCAD\Lib\Git\p-cad-4\scheme.PCB
+    Section : Load Messages
+        Warning - 1 : Skipping Token defaultPinDes On Line 393
+        Warning - 1 : Skipping Token defaultPinDes On Line 394
+        Warning - 1 : Skipping Token defaultPinDes On Line 395
+        Warning - 1 : Skipping Token defaultPinDes On Line 428
+        Warning - 1 : Skipping Token defaultPinDes On Line 429
+        Warning - 1 : Skipping Token defaultPinDes On Line 430
+        Warning - 1 : Skipping Token defaultPinDes On Line 463
+        Warning - 1 : Skipping Token defaultPinDes On Line 464
+        Warning - 1 : Skipping Token defaultPinDes On Line 465
+        Warning - 1 : Skipping Token defaultPinDes On Line 466
+        Warning - 1 : Skipping Token defaultPinDes On Line 467
+        Warning - 1 : Skipping Token defaultPinDes On Line 468
+        Warning - 1 : Skipping Token defaultPinDes On Line 469
+        Warning - 1 : Skipping Token defaultPinDes On Line 470
+        Warning - 1 : Skipping Token defaultPinDes On Line 492
+        Warning - 1 : Skipping Token defaultPinDes On Line 493
+        Warning - 1 : Skipping Token defaultPinDes On Line 523
+        Warning - 1 : Skipping Token defaultPinDes On Line 524
+        Warning - 1 : Skipping Token defaultPinDes On Line 555
+        Warning - 1 : Skipping Token defaultPinDes On Line 556
+        Warning - 1 : Skipping Token defaultPinDes On Line 591
+        Warning - 1 : Skipping Token defaultPinDes On Line 592
+        Warning - 1 : Skipping Token attachedSymbol On Line 640
+        Warning - 1 : Skipping Token attachedSymbol On Line 660
+        Warning - 1 : Skipping Token attachedSymbol On Line 681
+        Warning - 1 : Skipping Token attachedSymbol On Line 702
+        Warning - 1 : Skipping Token attachedSymbol On Line 730
+        Warning - 1 : Skipping Token attachedSymbol On Line 757
+        Warning - 1 : Skipping Token attachedSymbol On Line 777
+        Warning - 1 : Skipping Token attachedSymbol On Line 798
+        Warning - 1 : Skipping Token attachedSymbol On Line 799
+        Warning - 1 : Skipping Token attachedSymbol On Line 820
+        Warning - 1 : Skipping Token refPointSize On Line 1033
+        Warning - 1 : Skipping Token infoPointSize On Line 1034
+        Warning - 1 : Skipping Token gluePointSize On Line 1035
+        Warning - 1 : Skipping Token pickPointSize On Line 1036
+        Warning - 1 : Skipping Token testPointSize On Line 1037
+        Warning - 1 : Skipping Token refPointSizePrint On Line 1038
+        Warning - 1 : Skipping Token infoPointSizePrint On Line 1039
+        Warning - 1 : Skipping Token gluePointSizePrint On Line 1040
+        Warning - 1 : Skipping Token pickPointSizePrint On Line 1041
+        Warning - 1 : Skipping Token testPointSizePrint On Line 1042
+        Warning - 1 : Skipping Token solderFlowDirection On Line 1043
+        Warning - 1 : Skipping Token globalCopperPourCutoutBackoffFlag On Line 1044
+        Warning - 1 : Skipping Token useLegacyBackoffAlgorithm On Line 1045
+        Warning - 1 : Skipping Token useLegacyCupourIslandGenerationAlgorithm On Line 1046
+        Warning - 1 : Skipping Token drillSymSettings On Line 1355
+        Warning - 1 : Skipping Token gerberSettings On Line 1357
+        Warning - 1 : Skipping Token ncDrillSettings On Line 1371
+        Warning - 1 : Skipping Token programState On Line 1380
+        Warning - 1 : Skipping Token displayDrawOrder On Line 1421
+        Warning - 1 : Skipping Token reportSettings On Line 1644
+        Warning - 1 : Skipping Token odbSettings On Line 2341
+    EndSection
+
+    Section : Import Messages
+        Warning - 0 : PCAD Pattern Graphics [3528][Primary] associated with PCAD Component [3528] has been renamed to PCB FootPrint [3528_3528(Primary)].
+    EndSection
+EndSection
+
+Section : D:\Programs\PCAD\Lib\Git\p-cad-4\scheme.SCH
+    Section : Parsing Messages
+        Warning - 1 : Skipping Token defaultPinDes On Line 159
+        Warning - 1 : Skipping Token defaultPinDes On Line 167
+        Warning - 1 : Skipping Token defaultPinDes On Line 175
+        Warning - 1 : Skipping Token defaultPinDes On Line 183
+        Warning - 1 : Skipping Token defaultPinDes On Line 191
+        Warning - 1 : Skipping Token defaultPinDes On Line 199
+        Warning - 1 : Skipping Token defaultPinDes On Line 207
+        Warning - 1 : Skipping Token defaultPinDes On Line 215
+        Warning - 1 : Skipping Token defaultPinDes On Line 265
+        Warning - 1 : Skipping Token defaultPinDes On Line 273
+        Warning - 1 : Skipping Token defaultPinDes On Line 281
+        Warning - 1 : Skipping Token defaultPinDes On Line 304
+        Warning - 1 : Skipping Token defaultPinDes On Line 312
+        Warning - 1 : Skipping Token defaultPinDes On Line 333
+        Warning - 1 : Skipping Token defaultPinDes On Line 341
+        Warning - 1 : Skipping Token defaultPinDes On Line 349
+        Warning - 1 : Skipping Token defaultPinDes On Line 410
+        Warning - 1 : Skipping Token defaultPinDes On Line 418
+        Warning - 1 : Skipping Token defaultPinDes On Line 435
+        Warning - 1 : Skipping Token defaultPinDes On Line 443
+        Warning - 1 : Skipping Token gridDfns On Line 926
+        Warning - 1 : Skipping Token refPointSize On Line 948
+        Warning - 1 : Skipping Token infoPointSize On Line 949
+        Warning - 1 : Skipping Token junctionSize On Line 950
+        Warning - 1 : Skipping Token refPointSizePrint On Line 951
+        Warning - 1 : Skipping Token infoPointSizePrint On Line 952
+        Warning - 1 : Skipping Token junctionSizePrint On Line 953
+        Warning - 1 : Skipping Token PrintRegion On Line 1133
+        Warning - 1 : Skipping Token schematicPrintSettings On Line 1137
+        Warning - 1 : Skipping Token ecoState On Line 1152
+        Warning - 1 : Skipping Token currentTextStyle On Line 1153
+        Warning - 1 : Skipping Token reportSettings On Line 1156
+    EndSection
+
+    Section : Generating SCH Library - scheme.SchLib
+        Warning : Component [B57861S0103F040] - removed empty display mode [DeMorgan] for part number [1]
+    EndSection
+
+    Section : Generating SCH Sheet - Sheet1.SCHDOC
+        Warning : Add Power Object for Pin Name [GND] at location [2834.64mil : 3779.52mil]
+        Warning : Add Power Object for Pin Name [GND] at location [9751.949mil : 6322.822mil]
+        Warning : Add Power Object for Pin Name [GND] at location [3999.992mil : 3515.741mil]
+        Warning : Add Power Object for Pin Name [GND] at location [8976.36mil : 2913.38mil]
+        Warning : Add Power Object for Pin Name [GND] at location [866.14mil : 4173.22mil]
+        Warning : Add Power Object for Pin Name [GND] at location [6015.736mil : 4303.141mil]
+        Warning : Add Power Object for Pin Name [GND] at location [7724.394mil : 4503.928mil]
+        Warning : Add Power Object for Pin Name [GND] at location [7897.622mil : 6303.137mil]
+        Warning : Add Power Object for Pin Name [+12B] at location [9988.169mil : 7578.725mil]
+    EndSection
+
+    Section : Analyzing SCH Sheet - Sheet1.SCHDOC
+    EndSection
+EndSection
